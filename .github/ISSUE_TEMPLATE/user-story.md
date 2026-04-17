@@ -1,23 +1,21 @@
 ---
 name: User Story
-about: Describe this issue template's purpose here.
+about: User story issue template for the product catalog
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
-   
- ### Details and Assumptions
- * [document what you know]
-   
- ### Acceptance Criteria  
-   
- ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
- ```
+## User Story
+
+As a **shopper**,
+I need **to be able to search for products in the catalog**,
+So that **I can find and purchase the items I am looking for**.
+
+## Acceptance Criteria
+
+```gherkin
+Given a product catalog with multiple items
+When I search for a product by name or category
+Then I should see a list of matching products with their details
+```
